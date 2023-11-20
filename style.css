@@ -1,0 +1,54 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+body,
+html {
+    background-image: url(https://images3.alphacoders.com/217/thumb-1920-217677.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-height: none;
+}
+
+img {
+    position: absolute;
+    display: inline;
+    width: auto;
+    cursor: pointer;
+    height: 190px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1vr);
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 77%);
+    font-size: 1.5rem;
+    margin-left: 12px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    box-shadow: inset 100px 0 0 0 rgba(255, 255, 255, 15%);
+    color: #fff;
+}

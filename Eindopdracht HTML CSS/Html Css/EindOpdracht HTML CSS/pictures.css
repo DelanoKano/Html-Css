@@ -1,0 +1,264 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    background-image: url(https://images3.alphacoders.com/217/thumb-1920-217677.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+img {
+    position: absolute;
+    display: inline;
+    width: auto;
+    cursor: pointer;
+    height: 190px;
+}
+
+.grid-container {
+    display: grid;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 77%);
+    font-size: 1.5rem;
+    margin-left: 12px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    box-shadow: inset 100px 0 0 0 rgba(255, 255, 255, 15%);
+    color: #fff;
+}
+
+.Info p {
+    position: inline;
+    text-align: center;
+    color: rgba(255, 255, 255, 77%);
+    font-size: 1.3rem;
+
+}
+
+.grid-pictures {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+}
+
+#auto1 {
+    margin-top: 8rem;
+    margin-left: 10px;
+    cursor: default;
+    border: 1px black;
+    border-radius: 30px;
+    border-style: none;
+}
+
+#auto1:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#auto2 {
+    margin-left: 15rem;
+    margin-top: 8.2rem;
+    cursor: default;
+    border: 1px black;
+    border-radius: 30px;
+    border-style: none;
+}
+
+#auto2:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#auto3 {
+    margin-left: 29rem;
+    margin-top: 8.2rem;
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+#auto3:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#auto4 {
+    margin-top: 22rem;
+    margin-left: 10px;
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+#auto4:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#auto5 {
+    margin-top: 8.2rem;
+    margin-left: 39.5rem;
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+#auto5:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#auto6 {
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+#auto6:hover {
+    transition: transform 1s ease-in-out;
+    border: 5px groove rgba(0, 0, 0, 57%);
+    transform: translateY(-10px);
+}
+
+#foto1text {
+    margin-top: 19.9rem;
+    font-size: 20px;
+    margin-left: 4.8rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+#foto2text {
+    margin-top: 12.43rem;
+    font-size: 20px;
+    margin-left: 4.8rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+#foto3text {
+    margin-top: 20.1rem;
+    font-size: 20px;
+    margin-left: 19.8rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+#foto4text {
+    margin-top: 20rem;
+    font-size: 20px;
+    margin-left: 31.7rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+#foto5text {
+    margin-top: 20.1rem;
+    font-size: 20px;
+    margin-left: 42.5rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+#foto6text {
+    margin-top: 12.90rem;
+    font-size: 20px;
+    margin-left: 20.3rem;
+    width: 200px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 57%);
+    border: 0.5px groove white;
+}
+
+.pictures-info-border {
+    border: 2px solid white;
+    margin-left: 20rem;
+    width: 580px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 57%);
+}
+
+#contact-title {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white
+}
+
+#contact-info {
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    text-align: center;
+    color: white;
+}
+
+#fname, #email{
+    background-color:rgba(255, 255, 255, 90%);
+    border: 2px solid rgba(0,0,255, 20%);
+    margin-bottom: 5px;
+}
+
+#knop-submit {
+    margin-top: 6px;
+    font-size: 15px;
+    background-color: rgba(255,255,255, 80%);   
+}
